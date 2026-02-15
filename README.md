@@ -2,6 +2,13 @@
 
 Implementacija igre v štirih programskih jezikih: C, C++, Rust in Java.
 
+## Podprte platforme
+
+- Linux
+- macOS
+
+Vse implementacije za nastavitev terminala uporabljajo POSIX orodja (`stty`, termios), zato delujejo na obeh platformah.
+
 ## Zahteve
 
 ### C
@@ -22,7 +29,6 @@ Implementacija igre v štirih programskih jezikih: C, C++, Rust in Java.
 ### Java
 
 - Preverjeno na JDK 21
-- JNA knjižnica (vključena v `java/lib/`)
 
 ## Prevajanje
 

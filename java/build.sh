@@ -2,4 +2,4 @@
 
 rm -rf bin
 
-javac --module-path lib/jna --source-path src -d bin src/si/Main.java $*
+javac --source-path src -d bin src/si/Main.java $*
